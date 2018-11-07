@@ -1,2 +1,35 @@
-.container
-display:flex;
+/*.container {*/
+/*
+    background: azure;
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+}
+*/
+
+/*
+.containertwo {
+    background: azure;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+*/
+
+/*
+.item {
+    margin: .5em;
+    background-color: chocolate;
+}
+*/
+
+header {
+    display:flex;
+    background-color: azure;
+    flex-direction: row;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
