@@ -22,14 +22,29 @@
     background-color: chocolate;
 }
 */
-
+body {
+    display: flex;
+    flex-direction: column;
+}
 header {
     display:flex;
     background-color: azure;
     flex-direction: row;
+}
+header nav {
+    flex: 1;
+}
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+header nav li {
+    list-style-type: none;
+    padding: 1em;
 }
 
 footer {
     display: flex;
     flex-direction: row;
 }
+
