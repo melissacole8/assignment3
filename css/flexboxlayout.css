@@ -22,14 +22,45 @@
     background-color: chocolate;
 }
 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+
+a {
+    color: dimgray;
+    transition: background-color .4s, color .4s;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+
+a:hover {
+    color:darkslategray;
+}
+
+.logo {
+    3em;
+}
+
+ul {
+    padding-left: 0;
+}
 body {
     display: flex;
     flex-direction: column;
+    height: 700px;
+    flex-wrap: wrap;
+    background-image:url('images/barnowlintree');
+    
 }
 header {
     display:flex;
     background-color: azure;
     flex-direction: row;
+    align-items: center;
 }
 header nav {
     flex: 1;
@@ -42,9 +73,25 @@ header nav li {
     list-style-type: none;
     padding: 1em;
 }
+main {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
 
 footer {
     display: flex;
     flex-direction: row;
+    background-color: azure;
+    align-items: center;
 }
-
+footer nav {
+    flex: 1;
+}
+footer nav ul {
+    display: flex;
+}
+footer nav li {
+    list-style-type: none;
+    padding: 1em;
+}
