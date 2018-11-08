@@ -75,8 +75,15 @@ header nav li {
 }
 main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex: 1;
+}
+.mainitems {
+    flex: 1;
+/*
+    display: flex;
+    flex-wrap: wrap;
+*/
 }
 
 footer {
@@ -94,4 +101,10 @@ footer nav ul {
 footer nav li {
     list-style-type: none;
     padding: 1em;
+}
+
+/*.container__item {*/
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
 }
