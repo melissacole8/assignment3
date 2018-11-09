@@ -1,34 +1,8 @@
-/*.container {*/
-/*
-    background: azure;
-    display: flex;
-    flex-direction: row;
-    height: 120px;
-}
-*/
 
-/*
-.containertwo {
-    background: azure;
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-}
-*/
-
-/*
-.item {
-    margin: .5em;
-    background-color: chocolate;
-}
-*/
 * {
     box-sizing: border-box;
     margin: 0;
 }
-
-
-
 
 a {
     color: dimgray;
@@ -41,19 +15,15 @@ a:hover {
     color:darkslategray;
 }
 
-.logo {
-    3em;
-}
-
 ul {
     padding-left: 0;
 }
 body {
-/*    display: flex;*/
-/*    flex-direction: column;*/
     height: 700px;
     flex-wrap: wrap;
+    background-color: #ffffff;
     }
+
 
 header {
     display:flex;
@@ -73,6 +43,8 @@ header nav li {
     list-style-type: none;
     padding: 1em;
 }
+
+
 main {
     display: flex;
     flex-direction: column;
@@ -80,12 +52,10 @@ main {
 }
 .mainitems {
     display: flex;
-/*    flex: 1;*/
+    justify-content: space-around;
+    flex: 1;
 }
-/*
-    display: flex;
-    flex-wrap: wrap;
-*/
+
 
 footer {
     display: flex;
@@ -98,17 +68,9 @@ footer nav {
 }
 footer nav ul {
     display: flex;
-    justify-content: flex-end;
+/*    justify-content: flex-end;*/
 }
 footer nav li {
     list-style-type: none;
     padding: 1em;
 }
-
-/*.container__item {*/
-/*
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-}
-*/
