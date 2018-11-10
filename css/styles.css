@@ -22,10 +22,11 @@ h1 {
 
 h2 {
     font-family: sans-serif;
-    color:dimgray;
+    color:whitesmoke;
     }
 
 p {
+    color: darkslategray;
 /*    background-color:azure;*/
 }
 

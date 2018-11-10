@@ -21,7 +21,7 @@ ul {
 body {
     height: 700px;
     flex-wrap: wrap;
-    background-color: #ffffff;
+    background-color:lightsteelblue;
     }
 
 
@@ -55,7 +55,6 @@ main {
     justify-content: space-around;
     flex: 1;
 }
-
 
 footer {
     display: flex;
