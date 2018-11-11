@@ -58,6 +58,7 @@ main {
     flex: 1;
 }
 
+
 footer {
     display: flex;
     flex-direction: row;
@@ -69,7 +70,6 @@ footer nav {
 }
 footer nav ul {
     display: flex;
-/*    justify-content: flex-end;*/
 }
 footer nav li {
     list-style-type: none;
