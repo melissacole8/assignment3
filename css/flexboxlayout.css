@@ -47,12 +47,14 @@ header nav li {
 
 main {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     flex: 1;
 }
 .mainitems {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     flex: 1;
 }
 
